@@ -1,4 +1,5 @@
 # practicing-cpp-mini-backtester
+_Note: given the educational nature of this project, code was written archaically by hand - no "vibing"_
 Mini project to practice c++ skills. Should read a CSV file of historical trade data and run different algorithms on it to compare historical performance
 This backtester does the most basic kind of trading: you either own the stock or you don't. That's it.
 
