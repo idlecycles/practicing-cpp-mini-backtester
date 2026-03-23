@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch x86_64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/backtester.dir/src/main.cpp.o CMakeFiles/backtester.dir/src/csv_parser.cpp.o CMakeFiles/backtester.dir/src/engine.cpp.o CMakeFiles/backtester.dir/src/stats.cpp.o -o backtester
