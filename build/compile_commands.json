@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/build",
+  "command": "/usr/bin/clang++  -I/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/include -g -std=gnu++20 -arch x86_64 -o CMakeFiles/backtester.dir/src/main.cpp.o -c /Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/src/main.cpp",
+  "file": "/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/src/main.cpp",
+  "output": "CMakeFiles/backtester.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/build",
+  "command": "/usr/bin/clang++  -I/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/include -g -std=gnu++20 -arch x86_64 -o CMakeFiles/backtester.dir/src/csv_parser.cpp.o -c /Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/src/csv_parser.cpp",
+  "file": "/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/src/csv_parser.cpp",
+  "output": "CMakeFiles/backtester.dir/src/csv_parser.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/build",
+  "command": "/usr/bin/clang++  -I/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/include -g -std=gnu++20 -arch x86_64 -o CMakeFiles/backtester.dir/src/engine.cpp.o -c /Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/src/engine.cpp",
+  "file": "/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/src/engine.cpp",
+  "output": "CMakeFiles/backtester.dir/src/engine.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/build",
+  "command": "/usr/bin/clang++  -I/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/include -g -std=gnu++20 -arch x86_64 -o CMakeFiles/backtester.dir/src/stats.cpp.o -c /Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/src/stats.cpp",
+  "file": "/Users/macbookpro/Desktop/cpp_learning/backtester/practicing-cpp-mini-backtester/src/stats.cpp",
+  "output": "CMakeFiles/backtester.dir/src/stats.cpp.o"
+}
+]
