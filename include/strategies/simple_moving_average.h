@@ -12,9 +12,10 @@ namespace backtester
     {
         public:
             SMAStrategy(int short_period, int long_period);
-            Signal generate_signal(const std::vector<Bar> &bars, int index) override;
+            Signal generate_signal(const std::vector<Bar>& bars, int index) override;
         
         private:
+            double average(const std::vector<Bar>& bars, int index, int lookback);
             int d_short_period;
             int d_long_period;
     };

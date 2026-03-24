@@ -13,8 +13,7 @@ namespace backtester
         std::ifstream inputFile(filename);
         std::vector<Bar> output{};
 
-        if (!inputFile.is_open()) 
-        {
+        if (!inputFile.is_open()) {
             throw std::runtime_error(std::format("Could not open file: {}", filename));
         }
 
