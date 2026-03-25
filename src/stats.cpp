@@ -6,6 +6,10 @@ namespace backtester
     Stats compute_stats(const std::vector<Trade>& trades)
     {
         int num_trades = trades.size();
+        if (!num_trades)
+        {
+            return Stats{};
+        }
         int profitable_trades = 0;
         double total_return = 1;
         for (const auto& trade : trades)
@@ -17,7 +21,7 @@ namespace backtester
         }
 
         double win_rate = static_cast<double>(profitable_trades) / num_trades;
-        return Stats{total_return, num_trades, win_rate};
+        return Stats{(total_return - 1.0) * 100, num_trades, win_rate};
     }
 
 } // namespace backtester
