@@ -10,7 +10,7 @@
 
 int main() {
     try {
-        auto bars = backtester::load_csv("../data/random.csv");
+        auto bars = backtester::load_csv("../data/AAPL.csv");
 
         // Buy and Hold
         auto bh_engine = backtester::Engine(
