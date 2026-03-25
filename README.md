@@ -3,6 +3,7 @@
 _Note: given the educational nature of this project, code was written archaically by hand - no "vibing"_
 
 Mini project to practice C++ skills. Reads a CSV file of historical stock data and runs different trading strategies against it to compare historical performance.
+To run the project just execute `chmod +x build.sh && ./build.sh`
 
 ## Trading Rules
 

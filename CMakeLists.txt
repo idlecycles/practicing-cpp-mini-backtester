@@ -10,6 +10,7 @@ add_executable(backtester
     src/csv_parser.cpp
     src/engine.cpp
     src/stats.cpp
+    src/simple_moving_average.cpp
 )
 
 target_include_directories(backtester PRIVATE include)
